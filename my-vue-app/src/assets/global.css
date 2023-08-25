@@ -1,0 +1,86 @@
+*{
+  font-family: 'Medium';
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  color: var(--color-text);
+  background-color: var(--color-white);
+}
+
+a {
+  cursor :pointer;
+}
+
+h2{
+  margin-top: 10px;
+}
+.main-container{
+  background-color: aliceblue;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background-image: url("../assets/images/background.png");
+  background-size: 100% 100%;
+  width: 60%;
+  height: 100%;
+  margin: 77px;
+  border-radius: 10px;
+  padding: 35px 38px;
+  box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  display: flex;
+}
+
+.container-top{
+  display: flex;
+  margin-top: 20px;
+}
+
+.lista{
+  width: 250px;
+}
+
+.container-top li {
+  list-style-type: none;
+  margin-top: 15px;
+}
+.container-itens{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-dark-blue);
+}
+h1{
+  font-family: bold;
+  color: #004AAD;
+}
+
+.fotoPerfil{
+  margin-left: 250px;
+  border-radius: 50%;
+}
+
+.conteudo{
+  width: 500px;
+  margin-right: 200px;
+  padding: 20px;
+}
+
+.conteudo div{
+  padding-bottom: 20px;
+}
+
+.conteudo p{
+  padding: 10px;
+}
