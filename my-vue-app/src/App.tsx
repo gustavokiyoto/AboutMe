@@ -12,8 +12,8 @@ function App() {
           <h2 >Desenvolvedor Python</h2>
           <div className='container-top'>
             <ul className='lista'>
-              <li><FaPhone/>  Telefone: (13) 99690-3468</li>
-              <li><AiOutlineMail/>  Email:gustavokiyoto@gmail.com</li>
+              <li><FaPhone/>  Telefone: (11) 11111-1111</li>
+              <li><AiOutlineMail/>  Email:example@email.com</li>
               <li><AiFillHome/>  Endereço: São Paulo(SP)</li>
               <li><a href="https://www.linkedin.com/in/gustavo-shiose-3806a81a2/"><AiOutlineLinkedin/>  LinkedIn</a></li>
             </ul>
